@@ -1,5 +1,8 @@
 # vite-plugin-slogan
 Print slogans to the console to cheer you on while developing a Vite project
+<p align='center'>
+English | <a href="./README.md">简体中文</a>
+</p>
 
 ## Usage
 1. install as `devDependencies`

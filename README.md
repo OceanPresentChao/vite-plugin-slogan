@@ -1,5 +1,8 @@
 # vite-plugin-slogan
 在开发Vite项目时在控制台打印口号为你加油助威
+<p align='center'>
+<a href="./README.EN.md">English</a> | 简体中文
+</p>
 
 ## 使用
 1. 安装到 `devDependencies`
