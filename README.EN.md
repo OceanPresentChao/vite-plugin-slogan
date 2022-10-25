@@ -1,8 +1,8 @@
 # vite-plugin-slogan
-在开发Vite项目时在控制台打印口号为你加油助威
+Print slogans to the console to cheer you on while developing a Vite project
 
-## 使用
-1. 安装到 `devDependencies`
+## Usage
+1. install as `devDependencies`
 
    ```bash
    npm add dev vite-plugin-slogan
@@ -12,7 +12,7 @@
    pnpm add dev vite-plugin-slogan
    ```
 
-2. 在 `vite.config.ts` 中使用
+2. using in `vite.config.ts` 
 
    ```ts
    import vue from '@vitejs/plugin-vue'
@@ -21,18 +21,20 @@
    
    // https://vitejs.dev/config/
    export default defineConfig({
-     plugins: [Slogan()],
+     plugins: [Slogan({
+       // Options
+     })],
    })
    ```
 
-## 配置
+## Config
 | name | type | default | description |
 | :----: | :----:  | :----: | :----: |
-| category | SloganCategory[] | ['anime'] | 语句的分类（传入多个值可包含多个领域） |
-| maxLength | number | 30 | 语句最大长度 |
-| minLength | number | 0 | 语句最小长度 |
+| category | SloganCategory[] | ['anime'] | categories of slogan(Including multi categories when passing string array) |
+| maxLength | number | 30 | max length of slogan |
+| minLength | number | 0 | min length of slogan |
 
-### SloganCategory说明
+### SloganCategory
 | value | description |
 | :----: | :----:  | 
 |'comic' | 漫画 |
@@ -47,7 +49,7 @@
 | 'film' | 影视 |
 | 'netease'| 网易云Netease Cloud Music Comment |
 
-## 示例
+## Example
  ```ts
  import vue from '@vitejs/plugin-vue'
  import { defineConfig } from 'vite'
@@ -63,5 +65,5 @@
  })
    ```
 
-## 相关/感谢
+## Related/Thanks
 [一言API](https://developer.hitokoto.cn/)
