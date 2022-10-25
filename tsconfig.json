@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "pretty": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es2018",
+    "types": [
+      "@types/node",
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@": [
+        "src/"
+      ]
+    },
+    "lib": [
+      "esnext"
+    ],
+  }
+}
